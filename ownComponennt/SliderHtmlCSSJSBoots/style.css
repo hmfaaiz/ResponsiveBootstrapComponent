@@ -1,0 +1,5 @@
+.carousel-inner img {
+    object-fit: cover; /* Maintain aspect ratio without stretching */
+    height:75vh; /* Take the full height of the container */
+   
+}
