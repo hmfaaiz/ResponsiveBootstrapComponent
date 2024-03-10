@@ -1,0 +1,11 @@
+@media(max-width:900px) {
+    .sidebar{
+        background-color:rgb(5, 42, 67,100);
+      
+    }
+}
+
+/* Add this style to your CSS file */
+.navbar-nav .nav-link.active {
+    color: red; 
+}

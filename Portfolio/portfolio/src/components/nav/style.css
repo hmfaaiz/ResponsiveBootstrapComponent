@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* nav {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding: 0 4vw;
+  
+  } */
+
+/* .tab {
+    display: flex;
+    gap: 2vw;
+  }
+   */
+
+@media (max-width: 900px) {
+  .sidebar {
+    background-color: rgb(5, 42, 67, 100);
+  }
+  .navbar-nav .nav-item .nav-link {
+    color: white !important;
+  }
+}
+
+nav {
+  border-bottom: 1px solid rgb(220, 220, 220);
+  height: 10vh;
+}
+
+
+.navbar-toggler {
+
+}
+
