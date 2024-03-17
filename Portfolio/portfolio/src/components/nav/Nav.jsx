@@ -7,7 +7,7 @@ const Nav = () => {
     <nav className="bg-white text-black navbar navbar-expand-lg">
       <div className="container">
         {/* <!-- Logo  --> */}
-       <h1> <a className="text-black navbar-brand fs-4" href="#">Faaiz</a></h1>
+       <h1> <a className="logo text-black navbar-brand fs-4" href="#">Faaiz</a></h1>
 
         {/* <!-- Toggle --> */}
         <button className="navbar-toggler shadow-none border-0 navbar-light" type="button" data-bs-toggle="offcanvas"

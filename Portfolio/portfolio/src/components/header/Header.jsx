@@ -12,8 +12,8 @@ const Header = () => {
            Maxime, alias voluptatum ratione in tenetur iste reprehenderit nostrum!
             Quas fugit suscipit labore facilis illum consequatur non repellat iste.</p>
       </div>
-      <div className="right">
-     
+      <div className="right d-none d-lg-block">
+  
         <img src={coverimg} alt="" />
       </div>
     </div>

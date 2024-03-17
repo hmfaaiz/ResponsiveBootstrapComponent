@@ -1,0 +1,62 @@
+.projects {
+  align-items: center;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-top: 5%;
+  text-transform: uppercase;
+}
+.projects .prjmaindesc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+   
+
+}
+
+.projects .prjmaindesc p {
+ width: 82%;
+
+}
+
+
+
+.projects span {
+  color: #5e338b;
+}
+
+.parentProjectCont {
+  /* background-color: rgb(215, 250, 225); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4%;
+}
+
+.childProjectCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(223, 130, 8); */
+  /* width: 24%; */
+  
+  margin:10px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #5e338b;;
+
+}
+
+
+.logoimg{
+
+    width: 40%;
+    height: 30%;
+}
+
+.description{
+    padding: 5%;
+    /* background-color: aqua; */
+}
