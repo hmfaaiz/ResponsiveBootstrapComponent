@@ -1,0 +1,46 @@
+.skill {
+    align-items: center;
+  }
+  
+  .skill h2 {
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  .skill span {
+    color: #5e338b;
+  }
+
+
+  .parentSkillCont {
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px;
+  }
+  
+  .parentSkillCont .childSkillCont{
+    /* background-color: aliceblue; */
+    width: 80%;
+    display: flex;
+    overflow: hidden;
+    height: 30vh;
+    padding: 10px;
+
+
+
+  }
+
+  .parentSkillCont .childSkillCont .skillImg{
+    background-color: #5e338b;
+    margin: 18px 12px;
+    animation: skillImg 10s linear infinite;
+
+  }
+
+  @keyframes skillImg {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-195vw); }
+}
+

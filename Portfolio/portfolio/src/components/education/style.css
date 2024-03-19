@@ -1,0 +1,80 @@
+.education {
+  align-items: center;
+}
+
+.education h2 {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.education span {
+  color: #5e338b;
+}
+
+.parentEducCont {
+  /* background-color: blueviolet; */
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.childEducCont {
+  /* background-color: rgb(226, 144, 43); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  /* width: 24%; */
+  box-shadow: 0 0 8px #5e338b;
+  margin: 18px 12px;
+  border-radius: 8px;
+  border-bottom-left-radius:70px;
+
+}
+
+.parentEducCont :hover{
+  background-image: linear-gradient( #bf0487, #5e338b);
+  color: white;
+  transition: color 1.1s ease;
+}
+
+.childEducCont * {
+  pointer-events: none; 
+}
+
+.educationContent {
+  display: flex;
+  /* background-color: bisque; */
+  width: 95%;
+  align-items: center;
+  padding-bottom: 5%;
+  
+}
+.childEducCont .parentPara {
+
+
+height: 100px; 
+  overflow: hidden;
+}
+
+
+.childEducCont .educationContent .eduimg {
+  padding: 6px;
+  width: 60px; /* Adjust width as needed */
+  height: 55px;
+  border-radius: 50%;
+  border: solid 1px rgb(14, 0, 0);
+  background-color: #5e338b;
+  margin-top: 0px;
+}
+
+.eduyear {
+  /* background-color: aqua; */
+  flex: 70%;
+  margin-left: 15px;
+  margin-top: 15px;
+  height: 10vh;
+  line-height: 2px;
+  font-size: 12px;
+}

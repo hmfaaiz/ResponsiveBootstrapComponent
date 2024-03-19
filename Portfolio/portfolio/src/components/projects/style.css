@@ -18,6 +18,7 @@
 
 .projects .prjmaindesc p {
  width: 82%;
+ text-align: center;
 
 }
 
@@ -27,12 +28,20 @@
   color: #5e338b;
 }
 
+
 .parentProjectCont {
   /* background-color: rgb(215, 250, 225); */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4%;
+  padding: 20px;
+
+}
+
+.parentProjectCont :hover{
+  background-image: linear-gradient( #bf0487, #5e338b);
+  color: white;
+  transition: color 1.1s ease;
 }
 
 .childProjectCont {
@@ -40,15 +49,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background-color: rgb(223, 130, 8); */
+
   /* width: 24%; */
   
-  margin:10px;
+  margin:18px 12px;
   border-radius: 8px;
-  box-shadow: 0 0 8px #5e338b;;
+  box-shadow: 0 0 8px #5e338b;
 
 }
 
+.childProjectCont * {
+  pointer-events: none; 
+}
 
 .logoimg{
 
@@ -57,6 +69,12 @@
 }
 
 .description{
-    padding: 5%;
-    /* background-color: aqua; */
+  padding: 5%;
+  height: 160px; /* Set a fixed height for the description */
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-align: center;
+
+ 
 }
+

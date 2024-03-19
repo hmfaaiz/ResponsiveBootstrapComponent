@@ -4,7 +4,7 @@ import nodejslogo from "./logo/nodejslogo.png";
 
 const Projects = () => {
   return (
-    <div className="container projects">
+    <div className="container-fluid projects">
       <h2>
         My <span>Projects</span>
       </h2>
@@ -32,13 +32,13 @@ const Projects = () => {
           </div>
           <div className="description">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-              maxime
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              
             </p>
           </div>
         </div>
 
-        <div className="childProjectCont col-lg-3 col-md-6 col-sm-12">
+        <div className="childProjectCont col-lg-3 col-md-5 col-sm-12">
           <div className="logoimg">
             <img
               src={nodejslogo}
@@ -58,7 +58,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="childProjectCont col-lg-3 col-md-6 col-sm-12">
+        <div className="childProjectCont col-lg-3 col-md-5 col-sm-12">
           <div className="logoimg">
             <img
               src={nodejslogo}
@@ -78,7 +78,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="childProjectCont col-lg-3 col-md-6 col-sm-12">
+        <div className="childProjectCont col-lg-3 col-md-5 col-sm-12">
           <div className="logoimg">
             <img
               src={nodejslogo}
@@ -98,7 +98,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="childProjectCont col-lg-3 col-md-6 col-sm-12">
+        <div className="childProjectCont col-lg-3 col-md-5 col-sm-12">
           <div className="logoimg">
             <img
               src={nodejslogo}
@@ -118,7 +118,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="childProjectCont col-lg-3 col-md-6 col-sm-12">
+        <div className="childProjectCont col-lg-3 col-md-5 col-sm-12">
           <div className="logoimg">
             <img
               src={nodejslogo}
@@ -138,7 +138,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="childProjectCont col-lg-3 col-md-6 col-sm-12">
+        <div className="childProjectCont col-lg-3 col-md-5 col-sm-12">
           <div className="logoimg">
             <img
               src={nodejslogo}
@@ -158,7 +158,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="childProjectCont col-lg-3 col-md-6 col-sm-12">
+        <div className="childProjectCont col-lg-3 col-md-5 col-sm-12">
           <div className="logoimg">
             <img
               src={nodejslogo}
@@ -178,7 +178,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="childProjectCont col-lg-3 col-md-6 col-sm-12">
+        <div className="childProjectCont col-lg-3 col-md-5 col-sm-12">
           <div className="logoimg">
             <img
               src={nodejslogo}
