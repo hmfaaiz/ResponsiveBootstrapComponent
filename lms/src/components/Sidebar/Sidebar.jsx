@@ -1,41 +1,68 @@
 import React from "react";
 import "./style.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser,faUsers ,faBook,faHandHoldingHand,faRightFromBracket,faClockRotateLeft,faList} from '@fortawesome/free-solid-svg-icons';
+
 const Sidebar = () => {
   return (
     <>
-      <div className="sidebar col-6 col-sm-4 col-md-3 col-lg-2 ml-0">
+   
+      <div className="sidebar col-8 col-sm-4 col-md-3 col-lg-2 ml-0">
         <div className="header mt-3">
           <h2>LMS</h2>
         </div>
         <hr className="custom-hr " />
         <div className="menuCont">
 
-          <ul className="list-unstyled">
-            <li>My Profile</li>
-            <li>Members</li>
-            <li>Books</li>
-            <li
+          <ul className="list-unstyled ">
+            <li className="menuList">
+            <div className="icon"><FontAwesomeIcon icon={faUser} />
+            </div>
+            <span className="icon-text">  My Profile</span></li>
+            <li className="menuList">
+            <div className="icon"> <FontAwesomeIcon icon={faUsers} />
+            </div>
+            <span className="icon-text">Members</span></li>
+    
+
+            <li className="menuList">
+            <div className="icon"> <FontAwesomeIcon icon={faBook}/>
+            </div>
+            <span className="icon-text">Books</span></li>
+            <li className="menuList"
               data-bs-target="#more"
               data-bs-toggle="collapse"
               aria-expanded="false"
+
             >
-              Borrowing System
+                 <div className="icon">
+              <FontAwesomeIcon icon={faHandHoldingHand} />
+              </div>
+              <div >
+              <span className="icon-text">Borrowing System</span> 
               <ul
-                className="
+                className="childUl
             
                  list-unstyled collapse"
                 id="more"
               >
-                <li>My history</li>
-                <li>List Borrowed</li>
-                <li>Current Borrowed</li>
+                <li className="childMenuList"><FontAwesomeIcon icon={faClockRotateLeft}/>  <span className="icon-text"> My history</span> </li>
+                <li className="childMenuList"><FontAwesomeIcon icon={faList}/>  <span className="icon-text">List Borrowed</span> </li>
+                <li className="childMenuList"><FontAwesomeIcon icon={faList}/>  <span className="icon-text">Current Borrowed</span> </li>
               </ul>
+              </div>
             </li>
 
-            <li>Logout</li>
+            <li className="menuList">
+            <div className="icon">
+            <FontAwesomeIcon icon={faRightFromBracket} />
+                </div>
+           
+                <span className="icon-text">Logout</span></li>
           </ul>
         </div>
       </div>
+
     </>
   );
 };
