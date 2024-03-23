@@ -1,4 +1,10 @@
 
+.dashboard{
+  display: flex;
+  background-color: rgb(245, 245, 245);
+}
+
+
 .sidebar {
   background-color: rgb(36, 1, 73);
   height: 100vh;
