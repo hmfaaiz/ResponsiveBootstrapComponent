@@ -7,7 +7,7 @@ const Header = () => {
       <div className="left">
         <h4>Hi, I'm </h4>
         <h1>Hafiz Muhammad <span className='name'>Faaiz</span> Azeem</h1>
-        <p>I am a Software Engineer experties in Nodejs</p>
+        <p>I am a Software Engineer experties in Nodejs, MERN Stack</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, totam accusamus.
            Maxime, alias voluptatum ratione in tenetur iste reprehenderit nostrum!
             Quas fugit suscipit labore facilis illum consequatur non repellat iste.</p>
