@@ -3,10 +3,10 @@ import axios from "axios";
 
 export const getUser = createAsyncThunk("getuser", async () => {
   const response = await axios.get("https://api.github.com/users");
-  console.log("state",response.data.login)
+  console.log("state", response.data.login);
   return response;
 });
-getUser()
+
 export const UserSlice = createSlice({
   name: "UserSlice",
   initialState: {
