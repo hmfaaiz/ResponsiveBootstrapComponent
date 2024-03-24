@@ -13,7 +13,7 @@ return (
  
       <Routes>
        
-        <Route path="/Signup" element={<Signup/>} />
+        <Route path="/Signup" element={<Auth Component={Signup} />} />
         <Route path="/" element={<Auth Component={Signin} />} />
         <Route path="/Dashboard" element={<Auth Component={Dashboard} />} />
        

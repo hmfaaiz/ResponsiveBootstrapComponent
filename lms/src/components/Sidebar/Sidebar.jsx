@@ -1,4 +1,7 @@
 import {useState,React} from "react";
+import Cookies from "universal-cookie";
+import { useNavigate } from "react-router-dom";
+
 import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -13,11 +16,19 @@ import {
 import Userform from "../Userform/Userform";
 
 const Sidebar = () => {
+  const cookies = new Cookies();
+  const navigate = useNavigate();
   const [updateProfile, setUpdateProfile] = useState(false);
 
   const OpenUpdateProfile=()=>{
     setUpdateProfile(true)
 
+}
+const Logout=()=>{
+
+
+cookies.remove("token");
+navigate("/");
 }
 
 
@@ -90,7 +101,7 @@ const Sidebar = () => {
                   <FontAwesomeIcon icon={faRightFromBracket} />
                 </div>
 
-                <span className="icon-text">Logout</span>
+                <span className="icon-text" onClick={()=>Logout()}>Logout</span>
               </li>
             </ul>
           </div>

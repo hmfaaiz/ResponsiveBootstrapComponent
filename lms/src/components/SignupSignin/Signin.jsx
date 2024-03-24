@@ -23,7 +23,11 @@ const Signin = () => {
     if (userData.email && userData.password) {
       dispatch(loginUser(userData))
         .then((result) => {
-          navigate("/dashboard");
+          if(result.type=="login/fulfilled"){
+            navigate("/dashboard");
+          }
+        
+          
         })
         .catch((error) => {
           console.error("Login failed:", error);
